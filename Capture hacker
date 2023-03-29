@@ -12,6 +12,10 @@ Section:NewButton("Aim lock(Press E)", "???", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/TheBogt/CaptureHacker/main/AIM%20LOCK"))()("Clicked")
 end)
 
+Section:NewButton("Light ESP", "???", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TheBogt/ThePis/main/LightEsp"))()("Clicked")
+end)
+
 Section:NewButton("ESP", "???", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/TheBogt/Capture-Hacker/main/Capture%20ESP"))()("Clicked")
 end)
